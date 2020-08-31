@@ -1,0 +1,13 @@
+.navbar {
+background-color: rgb(248, 98, 177);
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: larger;
+}
+.nav-link:hover{
+    border-style: solid;
+}
+.logo{
+    width: 130%
+}
