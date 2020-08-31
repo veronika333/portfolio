@@ -1,5 +1,7 @@
 .navbar {
 background-color: rgb(248, 98, 177);
+padding-left: 5%;
+padding-right: 5%;
     color: black;
     text-transform: uppercase;
     font-weight: bold;
