@@ -7,7 +7,7 @@ import './navbar.css'
 export default function NavBar() {
     return (
         <>
-           <Navbar collapseOnSelect expand="lg" color="black" variant="light">
+           <Navbar collapseOnSelect expand="lg" color="black" variant="light" fixed="top">
   <Navbar.Brand href="#home">
       <img className="logo" src={logo} alt="My portfolio logo" />
   </Navbar.Brand>
