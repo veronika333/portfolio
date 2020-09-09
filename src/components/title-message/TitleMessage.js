@@ -11,14 +11,15 @@ export default function TitleMessage() {
     <br />
     <br />
   <strong>Veronika Maisuradze</strong>    
-<br/> <br/>
+<br />
+<br />
 <Typewriter
        options={{
          strings: ['Web Developer', 'Student', 'Learner'],
          autoStart: true,
          loop: true,
        }}
-     /></span>
+       /></span>
     </h2>
        </div>
        </div>

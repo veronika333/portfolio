@@ -33,7 +33,7 @@ export default function TheCarousel() {
   </Carousel.Item>
  
 </Carousel>  
- {/* <ScrollDown /> */}
+ <ScrollDown /> 
         </div>
     )
 }

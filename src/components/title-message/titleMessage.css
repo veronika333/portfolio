@@ -23,6 +23,8 @@ border-radius: 3px;
 .padded-multiline span { 
     background-color: rgba(0, 0, 0, 0.75);;
     color: rgb(248, 98, 177);
-    display: inline;
+    display: inline; 
     font-size: 1em;
-    padding: 0.5rem}
+    padding: 0;
+
+}
