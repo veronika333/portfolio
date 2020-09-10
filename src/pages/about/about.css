@@ -1,0 +1,20 @@
+.about {
+    font-size: 1.5vw;
+}
+.btn {
+    color: rgb(248, 98, 177);
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.padding {
+    padding-left: 2em;
+}
+
+.about {
+    background-color: rgb(234, 233, 230);
+}
+h1 span{
+    color: rgb(248, 98, 177);
+   
+}

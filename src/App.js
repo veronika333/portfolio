@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from '../src/components/navBar/NavBar';
 import TheCarousel from './components/carousel/TheCarousel';
 import TitleMessage from './components/title-message/TitleMessage';
+import About from './pages/about/About';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavBar />
       <TheCarousel />
       <TitleMessage />
+      <About />
     </div>
   );
 }
