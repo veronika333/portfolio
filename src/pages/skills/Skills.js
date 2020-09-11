@@ -11,13 +11,17 @@ import "./skills.css";
 
 const Skills = () => {
   return (
-    <div className="pt-3 pb-3" id="skills" d-flex>
-      <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
+      <div>
+           <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
+      
+    <div id="skills">
+     
       <CardDeck>
-        <Row className="d-flex justify-content-around">
+        {/* <Row className="d-flex justify-content-around"> */}
+        <Row className="d-flex justify-content-center">
           {/* Frontend */}
           <Col md={4} mx-auto>
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus mt-2 mb-2 mx-auto">
               <Card.Body>
                 {/* Frontend */}
                 <Card.Title className="text-center  card-title">Frontend</Card.Title>
@@ -37,7 +41,7 @@ const Skills = () => {
 
           {/* Backend */}
           <Col md={4} mx-auto>
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus mt-2 mb-2 mx-auto">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Backend</Card.Title>
                 <hr />
@@ -54,7 +58,7 @@ const Skills = () => {
             </Card>
 
             {/* Hosting Platforms */}
-            <Card className="focus mt-2 mb-2 ">
+            <Card className="focus mt-2 mb-2 mx-auto">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Hosting Platforms</Card.Title>
                 <hr />
@@ -73,7 +77,7 @@ const Skills = () => {
 
           {/* Programming Languages */}
           <Col md={4} mx-auto>
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus mt-2 mb-2 mx-auto">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Programming Languages</Card.Title>
                 <hr />
@@ -91,7 +95,7 @@ const Skills = () => {
 
             {/* Database */}
 
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus mt-2 mb-2 mx-auto">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Database</Card.Title>
                 <hr />
@@ -108,7 +112,7 @@ const Skills = () => {
             </Card>
             {/* Version Control */}
 
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus mt-2 mb-2 mx-auto">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Version Control</Card.Title>
                 <hr />
@@ -124,6 +128,7 @@ const Skills = () => {
           </Col>
         </Row>
       </CardDeck>
+    </div>
     </div>
   );
 };
