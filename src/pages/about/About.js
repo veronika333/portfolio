@@ -37,7 +37,7 @@ I have a great interest in IT-field, very good teamwork skills, excellent commun
     </a>
 </div>
 <div>
-    <a href="#contact">
+    <a href="https://drive.google.com/file/d/10KXVP80cnKFSjol809Ju77d7J5AtvYtT/view?usp=sharing">
         <Button variant="light">My CV</Button>
     </a>
 </div>

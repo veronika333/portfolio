@@ -11,6 +11,9 @@
     margin-top: 2em;
     font-size: 0.7em;
 }
+.btn:hover{
+    color: rgb(248, 98, 177);
+}
 .padding {
     padding-left: 2em;
 }

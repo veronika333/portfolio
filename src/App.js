@@ -6,6 +6,7 @@ import TitleMessage from './components/title-message/TitleMessage';
 import About from './pages/about/About';
 import Skills from './pages/skills/Skills';
 import Education from './pages/education/Education';
+import Contact from './pages/contact/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Skills />
       <Education />
+      <Contact />
     </div>
   );
 }
