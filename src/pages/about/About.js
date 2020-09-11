@@ -10,7 +10,7 @@ import Button from 'react-bootstrap/Button';
 export default function About() {
     return (
         <div className="about">
-            <h1 className="pt-3 text-center font-details pb-3"><span>ABOUT ME</span></h1>
+             <p className="text-center font-details-b pb-4">ABOUT ME</p>
             <Container>
                 <Row className="pt-3 pb-5 align-items-center">
                     <Col xs={6} md={4}>

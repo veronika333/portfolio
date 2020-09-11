@@ -1,0 +1,36 @@
+.card-title {
+    font-size: 2em;
+    font-weight: 700;
+  }
+  
+  .image-style {
+    width: 3em;
+  }
+  
+  .font-details {
+    font-size: 3em;
+    font-weight: 500;
+    color: #231d5af8;
+  }
+  
+  .font-details-b {
+    font-size: 3em;
+    font-weight: 500;
+    color: rgb(248, 98, 177);
+  }
+
+  div .card-deck {
+      margin: auto;
+      padding-left: auto;
+      padding-right: auto;
+      align-items: center;
+      align-content: center;
+  }
+
+  #skills{
+    margin: auto;
+    padding-left: auto;
+    padding-right: auto;
+    align-items: center;
+    align-content: center;
+  }
