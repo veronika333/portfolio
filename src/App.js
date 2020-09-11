@@ -5,6 +5,7 @@ import TheCarousel from './components/carousel/TheCarousel';
 import TitleMessage from './components/title-message/TitleMessage';
 import About from './pages/about/About';
 import Skills from './pages/skills/Skills';
+import Education from './pages/education/Education';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <TitleMessage />
       <About />
       <Skills />
+      <Education />
     </div>
   );
 }
