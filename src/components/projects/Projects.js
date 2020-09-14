@@ -17,7 +17,7 @@ import css from "../../assets/skillsImg/css.png";
 // projects
 import website2 from "../../assets/project_pics/website2.JPG";
 import website1 from "../../assets/project_pics/website1.JPG";
-import website3 from "../../assets/project_pics/website3.JPG";
+import website5 from "../../assets/project_pics/website5.JPG";
 import website4 from "../../assets/project_pics/website4.JPG";
 const Projects = () => {
   return (
@@ -102,7 +102,7 @@ const Projects = () => {
           </ImageEvent>
 
           {/* Project: Share your links */}
-          <ImageEvent date="3/09/2020" className="text-center" text="Share Your Favourite Links app" src={website1} alt="Share Your Favourite Links app">
+          <ImageEvent date="03/09/2020" className="text-center" text="Share Your Favourite Links app" src={website1} alt="Share Your Favourite Links app">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -131,17 +131,17 @@ const Projects = () => {
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={node} alt="Node.js" rounded className="image-style1 m-1"></Image> Node.js
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={express} alt="Express" rounded className="image-style1 m-1"></Image> Express
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
                               <Image src={firebase} alt="Firebase" rounded className="image-style1 m-1"></Image> Firebase/Firestore
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={html} alt="HTML" rounded className="image-style1 m-1"></Image> HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={css} alt="CSS" rounded className="image-style1 m-1"></Image> CSS3
                             </span>
                           </li>
                         </ul>
@@ -165,10 +165,10 @@ const Projects = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://smart-face-detect-app.herokuapp.com/" target="_blank">
+                <UrlButton href="https://react-firebase-app-aa5ca.web.app/login" target="_blank">
                   SEE LIVE
                 </UrlButton>
-                <UrlButton href="https://github.com/akjha96/Smart_Brain" target="_blank">
+                <UrlButton href="https://github.com/veronika333/React-Firebase-App"  target="_blank">
                   SOURCE CODE
                 </UrlButton>
               </div>
@@ -232,7 +232,7 @@ const Projects = () => {
 
           {/* Project: Beauty Blog */}
 
-          <ImageEvent date="13/05/2019" className="text-center" text="Beauty Blog" src={website2} alt="Beauty Blog">
+          <ImageEvent date="13/05/2019" className="text-center" text="Beauty Blog" src={website5} alt="Beauty Blog">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -250,6 +250,7 @@ const Projects = () => {
                           <li>Add a post</li>
                           <li>Delete a post</li>
                           <li>Read post in datail</li>
+                          <li>Write post and save to db.json</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -276,10 +277,7 @@ const Projects = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-              <UrlButton href="" target="_blank">
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton href="" target="_blank">
+                <UrlButton href="https://github.com/veronika333/reactjs_sandbox/tree/portfolio-3/portfolio-page" target="_blank">
                   SOURCE CODE
                 </UrlButton>
               </div>

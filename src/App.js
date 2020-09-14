@@ -8,6 +8,7 @@ import Skills from './pages/skills/Skills';
 import Education from './pages/education/Education';
 import Contact from './pages/contact/Contact';
 import Projects from './components/projects/Projects';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Education />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -6,7 +6,7 @@ import './navbar.css'
 
 export default function NavBar() {
     return (
-        <>
+        <div id="home">
            <Navbar collapseOnSelect expand="lg" color="black" variant="light" fixed="top">
   <Navbar.Brand href="#home">
       <img className="logo" src={logo} alt="My portfolio logo" />
@@ -23,6 +23,6 @@ export default function NavBar() {
     </Nav>
   </Navbar.Collapse>
 </Navbar> 
-        </>
+        </div>
     )
 }
